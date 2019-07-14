@@ -3,6 +3,7 @@
   "description": "AttendedBOT REFramework",
   "main": "Main.xaml",
   "dependencies": {
+    "UiPath.Credentials.Activities": "[1.1.6479.13204]",
     "UiPath.Excel.Activities": "[2.6.2]",
     "UiPath.Mail.Activities": "[1.5.0]",
     "UiPath.System.Activities": "[19.6.0]",
@@ -12,6 +13,7 @@
   "studioVersion": "19.6.0.0",
   "projectVersion": "1.0.0",
   "runtimeOptions": {
+    "exceptionHandlerWorkflow": "GlobalHandler.xaml",
     "autoDispose": false,
     "isPausable": true,
     "excludedLoggedData": [
